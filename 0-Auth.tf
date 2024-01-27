@@ -1,5 +1,9 @@
 ######AWS#######
 
+provider "aws" {
+  region = "ap-northeast-1"
+}
+
 terraform {
   required_providers {
     aws = {
